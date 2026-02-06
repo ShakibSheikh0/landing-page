@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #0f1419;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #0f1419 !important;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    margin-left: 2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0d7cff !important;
+}
+.cardtc:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    color: #000;
+}
+
